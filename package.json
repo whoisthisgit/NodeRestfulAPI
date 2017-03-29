@@ -1,19 +1,26 @@
 {
-  "name": "BookAPI",
-  "version": "0.0.0",
+  "name": "bookapi",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.11.2",
-    "gulp": "^3.8.11",
-    "gulp-nodemon": "^1.0.5",
-    "mongoose": "^3.8.24",
-    "body-parser": "^1.12.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoisthisgit/NodeRestfulAPI.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whoisthisgit/NodeRestfulAPI/issues"
+  },
+  "homepage": "https://github.com/whoisthisgit/NodeRestfulAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^4.9.2"
+  }
 }
